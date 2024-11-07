@@ -1,5 +1,5 @@
 //Written by Cyprian Siwik for Operating Systems, Project 2, 2024
-//Part 2 of the project
+//Project 2 - Buyer Consumer Problem
 //We set our buffer size, our indexes, our headers. We have our provider thread that adds stock to the shared buffer and our buyer thread that buys the stock off the shared buffer. This interaction keeps happening until all buyers buy something and there are no more buyers. All details of the process like allocation, signalling and waiting are documented as they occur in the file.
 
 
